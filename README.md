@@ -1,5 +1,5 @@
 # 8004
-> use `feathers` to create a server playground.
+> use `Feathers` to create a server playground.
 
 https://feathersjs.com/
 
