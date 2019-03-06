@@ -1,0 +1,24 @@
+{
+  "name": "8004",
+  "version": "1.0.0",
+  "description": "use `feathers` to create a server playground.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npm list @feathersjs/feathers && echo 'the latest version:' && npm view @feathersjs/feathers version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/server-playground/8004.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/server-playground/8004/issues"
+  },
+  "homepage": "https://github.com/server-playground/8004#readme",
+  "dependencies": {
+    "@feathersjs/feathers": "^3.3.1"
+  }
+}
