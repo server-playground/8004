@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "prestart": "npm list @feathersjs/feathers && echo 'the latest version:' && npm view @feathersjs/feathers version",
+    "prestart": "npm list @feathersjs/feathers && npm list @feathersjs/express && echo 'the latest version:' && npm view @feathersjs/feathers version && npm view @feathersjs/express version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/server-playground/8004#readme",
   "dependencies": {
+    "@feathersjs/express": "^1.3.1",
     "@feathersjs/feathers": "^3.3.1"
   }
 }
